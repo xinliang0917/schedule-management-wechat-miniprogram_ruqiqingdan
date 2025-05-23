@@ -1,0 +1,23 @@
+<view style="font-size: large; margin: 30rpx;">
+  <form bindsubmit="addTask">
+    <input class="input" bindblur="getName" type="text" placeholder="任务名称" value="{{_name}}" />
+    <view class="divLine"></view>
+    <view class="picker-container">
+      <picker mode="selector" range="{{priorityList}}" value="{{index}}" bindchange="choosePriority">优先级
+        <text class="picker-content" style="margin-left: 90rpx;">{{priorityList[index]}}</text>
+      </picker>
+    </view>
+    <view class="divLine"></view>
+    <view class="picker-container">
+      <picker mode="date" start="2020-1-1" end="2030-12-31" value="{{deadline}}" bindchange="chooseDate">截止时间
+        <text class="picker-content" style="margin-left: 50rpx;">{{deadline}}</text>
+      </picker>
+    </view>
+    <view class="divLine"></view>
+    <textarea class="textarea" bindblur="getDescription" placeholder="任务描述" value="{{_description}}"></textarea>
+    <view class="button-container">
+      <button class="cancelBtn" bindtap="cancel">取消</button>
+      <button class="submitBtn" form-type="submit" disabled="{{!name || isSubmitting}}" style="color: white; background-color: #AAD4F5;">保存</button>
+    </view>
+  </form>
+</view>

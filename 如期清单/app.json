@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/todo/todo",
+    "pages/calendar/calendar",
+    "pages/timing/timing",
+    "pages/user/user",
+    "pages/login/login",
+    "pages/newTask/newTask",
+    "pages/taskDetail/taskDetail",
+    "pages/guidance/guidance",
+    "pages/changeTheme/changeTheme",
+    "pages/policy/policy"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#AAD4F5",
+    "navigationBarTitleText": "如期清单",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#AAD4F5",
+    "list": [
+      {
+        "pagePath": "pages/todo/todo",
+        "text": "待办",
+        "iconPath": "./images/daiban.png",
+        "selectedIconPath": "./images/daiban-active.png"
+      },
+      {
+        "pagePath": "pages/calendar/calendar",
+        "text": "日历",
+        "iconPath": "./images/rili.png",
+        "selectedIconPath": "./images/rili-active.png"
+      },
+      {
+        "pagePath": "pages/timing/timing",
+        "text": "计时",
+        "iconPath": "./images/daojishi.png",
+        "selectedIconPath": "./images/daojishi-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "./images/user.png",
+        "selectedIconPath": "./images/user-active.png"
+      }
+    ]
+  },
+  "plugins": {
+    "calendar": {
+      "version": "1.1.3",
+      "provider": "wx92c68dae5a8bb046"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,14 @@
+.title {
+  font-size: 50rpx;
+  margin: 30rpx;
+}
+
+.subtitle {
+  font-size: 40rpx;
+  margin: 20rpx;
+}
+
+.content {
+  margin: 20rpx;
+  line-height: 1.5em;
+}

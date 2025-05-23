@@ -1,0 +1,7 @@
+<view class="theme-wrapper">
+  <view class="theme-item" wx:for="{{themeList}}" wx:key="index">
+    <image class="theme-preview" src="{{item.image}}" />
+    <view class="theme-name">{{item.name}}</view>
+    <button class="changeBtn" bindtap="changeTheme" data-index="{{item.index}}">切换主题</button>
+  </view>
+</view>

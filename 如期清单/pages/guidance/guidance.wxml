@@ -1,0 +1,37 @@
+<view class="title">四象限分类待办清单</view>
+<view class="content">
+  四象限时间管理法是一种非常著名的时间管理工具，由美国管理学家斯蒂芬·柯维（Stephen Covey）在其著作《高效能人士的七个习惯》中提出。这种方法将任务按照重要性和紧急性两个维度进行分类，帮助人们更有效地管理时间和优先处理任务。具体来说，四象限时间管理法将任务分为以下四个象限：
+</view>
+<view class="subtitle">第一象限：重要且紧急</view>
+<view class="content">
+  这些任务是必须立即处理的，比如紧急会议、危机处理等。这类任务往往压力较大，因为它们既重要又紧急。
+</view>
+<view class="subtitle">第二象限：重要但不紧急</view>
+<view class="content">
+  这些任务对个人或组织的目标至关重要，但不需要立即完成。例如，长期规划、建立关系、个人发展等。这是最应该投入时间和精力的区域，因为通过提前规划和预防，可以减少第一象限任务的出现。
+</view>
+<view class="subtitle">第三象限：不重要但紧急</view>
+<view class="content">
+  这些任务看起来需要立即处理，但实际上对个人或组织的目标并不重要。例如，某些电话、会议或他人的紧急请求。这类任务往往分散人们的注意力，导致无法专注于真正重要的事务。
+</view>
+<view class="subtitle">第四象限：不重要且不紧急</view>
+<view class="content">
+  这些任务既不紧急也不重要，通常是浪费时间的活动，如无意义的娱乐、闲逛等。这类任务应该尽量避免，以腾出时间处理更重要的任务。
+</view>
+<view class="content">
+  四象限时间管理法的核心理念是鼓励人们将更多的时间和精力投入到第二象限的任务中，通过预防和规划来减少第一象限任务的压力，同时减少第三和第四象限任务的干扰。通过这种方式，人们可以更有效地管理时间，提高工作效率和生活质量。
+</view>
+<image src="cloud://lty-1goehl3i0f9005e4.6c74-lty-1goehl3i0f9005e4-1330872052/guidance/sixiangxian.jpeg" mode="aspectFit" style="width: 100%;" />
+<view class="title">番茄钟计时</view>
+<view class="content">
+  番茄工作法是一种简单易行的时间管理方法，由意大利人弗朗西斯科·西里洛（Francesco Cirillo）在20世纪80年代末发明。这种方法的核心思想是将工作时间分割成一系列短时间段，每个时间段被称为一个“番茄钟”，通常为25分钟，之后休息5分钟。
+</view>
+<view class="content">
+  使用番茄工作法，选择一个待完成的任务，设定一个番茄时间，在番茄时间内专注工作，中途不允许做任何与该任务无关的事，直到番茄钟响起，然后设定一个番茄休息时间，短暂休息一下。结束一天的工作后，根据记录对当日的工作学习情况进行复盘，同时可以对第二天的时间进行规划。
+</view>
+<view class="content">
+  番茄工作法通过划分工作和休息时间，将时间划分为小块，有利于提高工作和休息的效率，提高人对时间的感知和掌控。
+</view>
+<view style="display: flex; justify-content: center;">
+  <image src="cloud://lty-1goehl3i0f9005e4.6c74-lty-1goehl3i0f9005e4-1330872052/guidance/fanqie.jpg" style=" width: 800rpx; height: 1200rpx;" mode="aspectFit" />
+</view>

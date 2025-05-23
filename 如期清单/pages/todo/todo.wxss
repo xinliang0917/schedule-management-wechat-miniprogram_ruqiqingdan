@@ -1,0 +1,32 @@
+page{
+  height: 100vh;
+}
+
+.todo {
+  display: flex;
+}
+
+.todolist1, .todolist2, .todolist3, .todolist4 {
+  height: 49.4vh;
+  width: 100%;
+  border: 5rpx solid lightgray;
+} 
+
+.addTaskBtn {
+  height: 100rpx; 
+  width: 100rpx; 
+  position:fixed; 
+  bottom: 50rpx; 
+  right: 50rpx; 
+  color: white; 
+  background-color: #AAD4F5;
+  border-radius: 50%;
+}
+
+.addTaskImg {
+  height: 100rpx; 
+  width: 100rpx; 
+  position:fixed; 
+  bottom: 50rpx; 
+  right: 50rpx; 
+}

@@ -1,0 +1,20 @@
+<view class="avatar-wrapper">
+  <view class="avatar">
+    <image wx:if="{{isLogin}}" src="{{avatarUrl}}"></image>
+    <image wx:if="{{!isLogin}}" src="{{'/images/defaultAvatar.png'}}"></image>
+  </view>
+  <view class="text" wx:if="{{isLogin}}">{{nickname}}</view>
+  <view class="text" wx:if="{{!isLogin}}">微信用户</view>
+</view>
+<view class="function-list">
+  <button class="function-button" bindtap="guidance"> <function-item text="功能介绍" /></button>
+  <button class="function-button" bindtap="changeTheme"><function-item text="专注主题" /></button>
+  <button class="function-button" open-type="contact"><function-item text="联系客服" /></button>
+  <button class="function-button" open-type="feedback"><function-item text="意见反馈" /></button>
+  <button class="function-button" bindtap="policy"><function-item text="隐私政策" /></button>
+</view>
+
+<view class="log">
+  <button class="loginBtn" wx:if="{{!isLogin}}" bindtap="login">登录</button>
+  <button class="logoutBtn" wx:if="{{isLogin}}" bindtap="logout">退出登录</button>
+</view>

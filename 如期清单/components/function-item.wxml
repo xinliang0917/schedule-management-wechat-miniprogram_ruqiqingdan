@@ -1,0 +1,4 @@
+<view class="function-item">
+  <view class="item-text">{{text}}</view>
+  <image class="point" src="/images/arrows.png"></image>
+</view>

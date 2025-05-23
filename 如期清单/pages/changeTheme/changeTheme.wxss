@@ -1,0 +1,30 @@
+.theme-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10rpx;
+  justify-content: space-around;
+}
+
+.theme-item {
+  flex-direction: column;
+  margin: 10px;
+}
+
+.theme-preview {
+  width: 110px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.theme-name {
+  text-align: center;
+  font-size: larger;
+  margin: 10px;
+}
+
+.changeBtn {
+  height: fit-content; 
+  width: fit-content; 
+  font-size: medium; 
+}

@@ -1,0 +1,16 @@
+.title {
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+  margin: 30rpx;
+}
+
+.subtitle {
+  font-size: large;
+  margin: 20rpx;
+}
+
+.content {
+  margin: 20rpx;
+  line-height: 1.5em;
+}

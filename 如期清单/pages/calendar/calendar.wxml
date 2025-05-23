@@ -1,0 +1,24 @@
+<calendar bindnextMonth="next" bindprevMonth="prev" binddateChange="dateChange" binddayClick="dayClick" weeks-type="cn" days-color="{{dayStyle}}" active-type="rounded" calendar-style="calendar" header-style="header" board-style="board" />
+<view class="divLine"></view>
+<view>
+  <view class="list-title">当日专注数据</view>
+  <view class="data">累计专注次数：{{_frequency}}次 | 累计专注时长：{{_duration}}分钟</view>
+</view>
+<view>
+  <view class="list-title">当日待办事项</view>
+  <view wx:if="{{unfinished.length || finished.length}}">
+    <checkbox-group bindchange="checkboxChange">
+      <view class="task-title" wx:if="{{unfinished.length}}">待完成：</view>
+      <view wx:for="{{unfinished}}" wx:key="id" style="display:flex;">
+        <checkbox class="checkbox" value="{{item.name}}" />
+        <view class="task-name" bindtap="taskDetail">{{item.name}}</view>
+      </view>
+      <view class="task-title" wx:if="{{finished.length}}">已完成：</view>
+      <view wx:for="{{finished}}" wx:key="id" style="display:flex;">
+        <checkbox class="checkbox" value="{{item.name}}" checked="true" disabled="true" />
+        <view class="task-name" bindtap="taskDetail" style="color: lightgray; text-decoration: line-through;">{{item.name}}</view>
+      </view>
+    </checkbox-group>
+  </view>
+  <view wx:if="{{!unfinished.length && !finished.length}}" style="margin-left: 30rpx;color: gray;">暂无待办事项</view>
+</view>

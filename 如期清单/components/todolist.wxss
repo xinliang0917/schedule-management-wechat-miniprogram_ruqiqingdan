@@ -1,0 +1,15 @@
+.list-title {
+  font-size: larger;
+  padding: 10rpx;
+  text-align: center;
+  background-color: white;
+  border-bottom: 5rpx solid #F0F0F0;
+}
+
+.checkbox {
+  margin: 10rpx;
+}
+
+.task-name {
+  line-height: 65rpx;
+}

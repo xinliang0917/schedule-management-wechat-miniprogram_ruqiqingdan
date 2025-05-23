@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "如期清单",
+  "usingComponents": {
+    "todolist":"/components/todolist"
+  }
+}

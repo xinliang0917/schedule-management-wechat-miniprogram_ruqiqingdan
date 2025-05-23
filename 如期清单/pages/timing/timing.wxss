@@ -1,0 +1,151 @@
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -1;
+}
+
+.slider {
+  width: 650rpx;
+  margin: 80rpx auto;
+}
+
+.task-text {
+  height: 200rpx;
+  margin: 40rpx auto;
+  text-align: center;
+}
+
+.task-title {
+  font-size: 35rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+}
+
+.task-desc {
+  font-size: 30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: gray;
+}
+
+.task-cate {
+  width: 660rpx;
+  margin: 80rpx auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cate-item {
+  width: 220rpx;
+  height: 130rpx;
+  text-align: center;
+  margin-bottom: 100rpx;
+}
+
+.cate-icon {
+  height: 70rpx;
+}
+
+.cate-icon image {
+  width: 75rpx;
+  height: 75rpx;
+}
+
+.cate-text {
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 30rpx;
+}
+
+.cate-text-active {
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  color: #AAD4F5;
+  font-weight: bold;
+}
+
+.start {
+  width: 280rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  margin: 100rpx auto;
+  border: 5rpx solid #AAD4F5;
+  color: #AAD4F5;
+  border-radius: 20rpx;
+}
+
+.clock {
+  overflow: hidden;
+}
+
+.progress {
+  width: 400rpx;
+  height: 400rpx;
+  margin: 140rpx auto;
+  position: relative;
+}
+
+.progress-bg, .progress-active {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400rpx;
+  height: 400rpx;
+}
+
+.progress-text {
+  width: 160rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 80rpx;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  position: absolute;
+  left: 95rpx;
+  top: 170rpx;
+}
+
+.musicBtn {
+  width: 50rpx;
+  height: 50rpx;
+  top: 30rpx;
+  right: 30rpx;
+  position: fixed;
+  color: white;
+  border: 5rpx solid white;
+  border-radius: 50%;
+}
+
+.music, .play, .stop {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.play {
+  animation: rotate 6s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.okBtn, .pauseBtn, .continueBtn, .cancleBtn {
+  width: 200rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: white;
+  border: 5rpx solid white;
+  border-radius: 20rpx;
+  margin: 20rpx auto 40rpx auto;
+}

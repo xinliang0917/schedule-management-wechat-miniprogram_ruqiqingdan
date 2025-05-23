@@ -1,0 +1,50 @@
+.calendar {
+  background-color: white;
+  padding-top: 10px;
+  border-radius: 15px;
+}
+
+.header {
+  font-size: large;
+  padding: 15rpx;
+  color: #7092BE;
+}
+
+.board {
+  color: #7092BE;
+  font-weight: bold;
+}
+
+.divLine {
+  background: #F0F0F0;
+  width: 100%;
+  height: 5rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.list-title {
+  font-size: larger;
+  font-weight: bold;
+  margin: 20rpx;
+  color: #7092BE;
+}
+
+.data {
+  margin: 30rpx;
+}
+
+.task-title {
+  font-size: larger;
+  margin-left: 30rpx;
+  margin-bottom: 10rpx;
+}
+
+.checkbox {
+  margin-left: 30rpx;
+  margin-bottom: 10rpx;
+}
+
+.task-name {
+  margin: 10rpx;
+}

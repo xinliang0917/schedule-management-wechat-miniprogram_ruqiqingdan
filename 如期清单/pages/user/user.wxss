@@ -1,0 +1,54 @@
+.avatar-wrapper {
+  background: linear-gradient(to bottom, #AAD4F5, white);
+  padding: 50rpx;
+  border-bottom: solid 5rpx #F0F0F0;
+}
+
+.avatar {
+  text-align: center;
+}
+
+.avatar image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+
+.text {
+  text-align: center;
+  color: black;
+  margin-top: 15rpx;
+}
+
+.divLine {
+    background: #F0F0F0;
+    width: 100%;
+    height: 5rpx;
+  }
+
+.function-button {
+  background-color: white;
+}
+
+.function-button::after {
+  border: none;
+}
+
+.log {
+  display: flex;
+  justify-content: center;
+}
+
+.loginBtn {
+  width: 60%;
+  position: fixed;
+  bottom: 100rpx;
+  color: white;
+  background-color: #AAD4F5;
+}
+
+.logoutBtn {
+  width: 60%;
+  position: fixed;
+  bottom: 100rpx;
+}

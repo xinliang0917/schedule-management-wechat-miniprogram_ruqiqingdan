@@ -1,0 +1,16 @@
+<scroll-view class="todolist" scroll-y style="height: 100%;">
+  <view class="list-title" style="color:{{color}}">{{title}}</view>
+  <view wx:if="{{todolist}}">
+    <checkbox-group bindchange="checkboxChange">
+      <view wx:for="{{todolist}}" wx:key="id" style="display:flex;">
+        <checkbox wx:if="{{!item.checked}}" class="checkbox" value="{{item.name}}" />
+        <checkbox wx:if="{{item.checked}}" class="checkbox" value="{{item.name}}" checked="true" disabled="true" />
+        <view class="task-name" bindtap="taskDetail">
+          <view wx:if="{{!item.checked}}">{{item.name}}</view>
+          <view wx:if="{{item.checked}}" style="color: lightgray; text-decoration: line-through;">{{item.name}}</view>
+        </view>
+      </view>
+    </checkbox-group>
+  </view>
+  <view wx:if="{{!todolist.length}}" style="font-size: larger; color: lightgray; position: absolute; top: 50%;left: 30%;">暂无任务</view>
+</scroll-view>

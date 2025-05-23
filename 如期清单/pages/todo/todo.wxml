@@ -1,0 +1,12 @@
+<view class="todo">
+  <todolist class="todolist1" title="重要且紧急" color="red" todolist="{{todolist1}}"checkboxChange="checkboxChange" bind:taskdetail="taskDetail" />
+  <todolist class="todolist2" title="重要不紧急" color="orange" todolist="{{todolist2}}" checkboxChange="checkboxChange" bind:taskdetail="taskDetail" />
+</view>
+<view class="todo">
+  <todolist class="todolist3" title="紧急不重要" color="green" todolist="{{todolist3}}" checkboxChange="checkboxChange" bind:taskdetail="taskDetail" />
+  <todolist class="todolist4" title="不重要不紧急" color="gray" todolist="{{todolist4}}" checkboxChange="checkboxChange" bind:taskdetail="taskDetail" />
+</view>
+
+<button class="addTaskBtn" bindtap="addTask">
+  <image class="addTaskImg" src="/images/xinjian.png" />
+</button>
